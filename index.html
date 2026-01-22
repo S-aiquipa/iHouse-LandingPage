@@ -20,7 +20,12 @@
   <body>
     <header class="header">
       <nav class="nav">
-        <img src="images/logo.png" alt="iHouse logo" id="logo" />
+        <img
+          src="images/logo.png"
+          class="nav__logo"
+          alt="iHouse logo"
+          id="logo"
+        />
         <ul class="nav__links">
           <li class="nav__item">
             <a class="nav__link" href="#section--1">Features</a>
@@ -46,5 +51,126 @@
         <img src="images/hero.png" class="header__img" alt="laptop project" />
       </div>
     </header>
+
+    <!--FIRST SECTION-->
+    <section class="section" id="section--1">
+      <div class="section__title">
+        <h2 class="section__description">Features</h2>
+        <h3 class="section__header">
+          simple dashboard to track debts, payments, and due dates with clear
+          status indicators
+        </h3>
+      </div>
+      <div class="features">
+        <!--FIRST FEATURE-->
+        <img
+          src="images/dashboard-1.png"
+          alt="Dashboard"
+          class="features__img"
+        />
+        <div class="features__feature">
+          <h5 class="features__header">Debt Dashboard</h5>
+          <p>Centralized view of all pending and paid debts</p>
+        </div>
+        <!--SECOND FEATURE-->
+        <div class="features__feature">
+          <h5 class="features__header">Status Indicators</h5>
+          <p>
+            Clear color codes to shows paid, overdues, and upcoming payments
+          </p>
+        </div>
+        <img src="images/status-2.png" class="features__img" alt="Status" />
+        <!--THIRD FEATURE-->
+        <img src="images/calendar-3.png" class="features__img" alt="Calendar" />
+        <div class="features__feature">
+          <h5 class="features__header">Calendar Integration</h5>
+          <p>Easy tracking of due dates and upcoming obligations</p>
+        </div>
+      </div>
+    </section>
+    <!--SECOND SECTION-->
+    <section class="section" id="section--2">
+      <div class="section__title">
+        <h2 class="section__description">How it works?</h2>
+        <h3 class="section__header">Just three simple steps</h3>
+      </div>
+      <div class="operations">
+        <div class="operations__tab-container">
+          <button
+            class="btn operations__tab operations__tab--1 operations__tab--active"
+            data-tab="1"
+          >
+            <span>01</span>Sign Up & Jump In
+          </button>
+          <button class="btn operations__tab operations__tab--2" data-tab="2">
+            <span>02</span>Add Your Debts & Payments
+          </button>
+          <button class="btn operations__tab operations__tab--3" data-tab="3">
+            <span>03</span>Track It All, StressFree
+          </button>
+        </div>
+        <div
+          class="operations__content operations__content--1 operations__content--active"
+        >
+          <h5 class="operations__header">Sign Up & Jump In</h5>
+          <p>
+            No complicated forms — just create your account and you’re ready to
+            roll.
+          </p>
+        </div>
+        <div class="operations__content operations__content--2">
+          <h5 class="operations__header">Add Your Debts & Payments</h5>
+          <p>
+            Plug in what you owe or what’s been paid, and let iHouse keep
+            everything neat and organized for you.
+          </p>
+        </div>
+        <div class="operations__content operations__content--3">
+          <h5 class="operations__header">Track It All, Stress‑Free</h5>
+          <p>
+            Sit back while the dashboard and calendar show you exactly what’s
+            paid, what’s coming up, and what needs attention.
+          </p>
+        </div>
+      </div>
+    </section>
+    <!--THIRD SECTION-->
+    <section class="section" id="section--3">
+      <div class="section__title section__title--testimonials">
+        <h2 class="section__description">Testimonials</h2>
+        <h3 class="section__header">Hear directly from our users</h3>
+      </div>
+    </section>
+    <!--FOURTH SECTION-->
+
+    <section class="section" id="section--4">
+      <div class="section__title section__title--Plans">
+        <h2 class="section__description">Plans & Prices</h2>
+        <h3 class="section__header">
+          Choose the plan that fits your needs — whether you're managing your
+          own payments or handling finances for an entire apartment community
+        </h3>
+      </div>
+      <div class="pricing-cards">
+        <!-- Personal Plan Card -->
+        <div class="card">
+          <h3>Personal Plan</h3>
+          <p>
+            Perfect for individual residents looking to track their payments.
+          </p>
+          <div class="price">$5/month</div>
+        </div>
+
+        <!-- Community Plan Card -->
+        <div class="card">
+          <h3>Community Plan</h3>
+          <p>
+            Built for apartment managers or condo boards managing residents'
+            debts.
+          </p>
+          <div class="price">$25/month</div>
+        </div>
+      </div>
+    </section>
   </body>
 </html>
